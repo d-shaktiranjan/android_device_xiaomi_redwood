@@ -227,3 +227,6 @@ BUILD_BROKEN_DUP_RULES := true
 SELINUX_IGNORE_NEVERALLOWS := true
 RELAX_USES_LIBRARY_CHECK := true
 BUILD_BROKEN_VENDOR_PROPERTY_NAMESPACE := true
+
+# Inherit from proprietary files for MiSound
+-include vendor/xiaomi/redwood-misound/BoardConfigMiSound.mk
