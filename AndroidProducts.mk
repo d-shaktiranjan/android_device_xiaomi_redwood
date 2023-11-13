@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/evolution_redwood.mk
+    $(LOCAL_DIR)/aosp_redwood.mk
 
 COMMON_LUNCH_CHOICES := \
-    evolution_redwood-user \
-    evolution_redwood-userdebug \
-    evolution_redwood-eng
+    aosp_redwood-user \
+    aosp_redwood-userdebug \
+    aosp_redwood-eng
